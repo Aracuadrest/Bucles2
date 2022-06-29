@@ -19,23 +19,24 @@ public class Ejercicioextra3 {
 		int j=1;
 		int f=1;
 		
-		 
-		  j=num*2;
-		  for(i=1;i<=j;i+=2) {
-			  
-			  System.out.printf("*");
-		     for(f=1;f<i;f++) {
-		    	 System.out.println("*");
-		     }
-		     System.out.println("\n");
-		  }
 		
+	for(f=1;f<=num*2;f=+2) {	 
+		for (i=num;i>=1;i++) {
+			
+			for (j=1;j<=i;j++) {
+			System.out.printf("*");
+			
+			}
+			System.out.println("");
+		}
+		System.out.println("");
+
 
 		
 		}
 		
 		
-
+	}
 	
 	}
 

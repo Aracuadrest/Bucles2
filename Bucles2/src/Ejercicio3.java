@@ -12,12 +12,13 @@ public class Ejercicio3 {
 		System.out.println("Introduzca un número entero: ");
 		int num=entrada.nextInt();
 		float inverso=0.0f;
+		
 		while (num!=0) {
-			inverso= 1 / (num %10.0f);
-			
+			inverso= 1 / (float)num;
+			System.out.printf("El inverso es: %d",inverso);
 			
 		}
-		System.out.printf("El inverso es: %d",inverso);
+		
 
 	}
 
