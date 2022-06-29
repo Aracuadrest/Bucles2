@@ -14,16 +14,17 @@ public class Ejercicioextra1 {
 	public static void main(String[] args) {
 		Scanner entrada=new Scanner(System.in);
 		System.out.println("Introduce un numero entero:");
-		int num=entrada.nextInt();
-		int i,j=1;
+		int fila=entrada.nextInt();
 		
-		for (i=1;i<=num;i++) {
+		int j=1;
+		
+		for (int i=1;i<=fila;i++) {
 			
 			for (j=1;j<=i;j++) {
-			System.out.printf("*");
+			System.out.print("*");
 			
 			}
-			System.out.println("");
+			System.out.println();
 		}
 		
 
